@@ -21,9 +21,9 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index, name='index'),
     path('eventos', views.eventos, name='eventos'),
-    path('mision-vision', views.mision-vision, name='mision-vision'),
+    path('mision-vision', views.misionVision, name='misionVision'),
     path('noticias', views.noticias, name='noticias'),
-    path('quienes somos', views.quienes somos, name='quienes somos'),
+    path('quienes somos', views.quienesSomos, name='quienesSomos'),
     path('recursos', views.recursos, name='recursos')
 
 ]

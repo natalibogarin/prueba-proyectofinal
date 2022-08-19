@@ -5,10 +5,10 @@ from django.http import HttpResponse
 def index(request):
     return render(request, 'index.html')
 
-def mision-vision(request):
+def misionVision(request):
     return render(request, 'mision-vision.html')
 
-def quienessomos(request):
+def quienesSomos(request):
     return render(request, 'quines somos.html')
 
 def recursos(request):
